@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MODUL3.css">
+  <title>Digital Responsive - Andini Oktavia Dyah Putri</title>
+</head>
+<body>
+
+  <main class="page-wrapper">
+    <!-- Kartu Profil Utama -->
+    <article class="profile-card">
+
+      <!-- Kolom Kiri / Header Profil -->
+      <header class="card-aside">
+        <button id="btnToggleTema" class="btn-tema">
+          Mode Terang ☀️
+        </button>
+        <!-- id="avatarProfil" untuk tantangan animasi putar avatar -->
+        <div id="avatarProfil" class="avatar-box">
+          <span class="avatar-icon">👩🏻‍💻</span>
+        </div>
+        <h1 class="student-name">Andini Oktavia Dyah Putri</h1>
+        
+        <!-- id="roleSiswa" untuk tantangan greeting ucapan otomatis -->
+        <p id="roleSiswa" class="student-role">Junior Web Developer</p>
+        
+        <p class="student-school">SMKN 1 KEPANJEN — RPL</p>
+        
+        <!-- id="btnKontak" sudah disamakan persis dengan kode index.js -->
+        <a href="#" id="btnKontak" class="btn-contact">Kirim Pesan</a>
+      </header>
+
+      <!-- Kolom Kanan / Konten Detail -->
+      <section class="card-content">
+        <div class="bio-section">
+          <h2 class="section-heading">Tentang Saya</h2>
+          <p class="bio-text">
+            Siswa kelas 10 Rekayasa Perangkat Lunak yang berfokus mendalami
+            arsitektur Front-End modern, tata letak CSS Flexbox, serta prinsip
+            Mobile-First Responsive Design standar industri.
+          </p>
+        </div>
+
+        <div class="skills-section">
+          <h2 class="section-heading">Keahlian & Kompetensi</h2>
+          <div class="skill-matrix">
+            <div class="skill-badge">HTML5 Semantic</div>
+            <div class="skill-badge">CSS3 Flexbox</div>
+            <div class="skill-badge">Responsive Design</div>
+            <div class="skill-badge">Media Queries</div>
+            <div class="skill-badge">Chrome DevTools</div>
+            <div class="skill-badge">Git & GitHub (Next)</div>
+          </div>
+        </div>
+
+        <!-- Tantangan: Section baru -->
+        <div class="extra-section">
+          <h2 class="section-heading">Proyek Pilihan & Sertifikasi</h2>
+          <p class="bio-text">
+             • Responsive profile card - codepen (minggu 02)<br>
+             • Basic HTML & CSS - kelas industri certificate
+          </p>
+        </div>
+       </section>
+
+      </article>
+     </main>
+
+      <!-- Modal Popup Kontak (Tersembunyi secara default) -->
+      <div id="modalKontak" class="modal-overlay">
+        <div class="modal-box">
+          <h2>Kirim Pesan</h2>
+          <p>Silahkan hubungi saya melalui email: andinikanesa@gmail.com</p>
+          <!-- Ditambahkan teks "Tutup" agar tombolnya memiliki wujud -->
+          <button id="btnTutupModal" class="btn-tutup">Tutup</button>
+        </div>
+      </div>
+  
+  <!-- SCRIPT PINDAH KE SINI: Menjamin JavaScript membaca seluruh ID di atas tanpa error -->
+  <script src="MODUL3.js"></script>
+</body>
+</html>

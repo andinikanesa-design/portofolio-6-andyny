@@ -1,0 +1,78 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #425e8b; /* Warna latar gelap */
+    color: #455a61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.kartu-profil {
+    background-color: #d3dbde;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #455a61;
+}
+
+h1 {
+    font-size: 28px;
+    color: #323e4a; /* Biru muda */
+    margin-bottom: 6px;
+}
+
+.tagline {
+    color: #455a61;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #323e4a;
+    margin: 20px 0 8px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1,8;
+}
+
+.kontak {
+    margin-top: 24px;
+    padding: 12px;
+    background: #30394f;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #e5e8ec;
+}
+
+a {
+    margin-top: 24px;
+    padding: 12px;
+    background: #1a1f2a;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #e5e8ec;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.kartu-profil :hover {
+    border-color: #425e8b;
+    transition: boarder-color 0.3s ease;
+}
